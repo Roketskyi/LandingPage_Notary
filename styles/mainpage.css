@@ -1,4 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media only screen and (max-width: 767px) {
+    .container {
+    padding-top: 5vh;
+    }
+    
+    .container-about {
+    padding-right: 20vh;
+    }
+    
+    .container-certificate {
+    padding: 5vh 10vh;
+    }
+    }
+    
+    @media only screen and (min-width: 768px) {
+    .container-about {
+    padding-right: 50vh;
+    }
+    
+    .container-certificate {
+    padding: 13vh 24vh;
+    }
+    }
+
 .container {
-    padding: 7vh 10px 0px 10px;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    padding-top: 7vh;
+    
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-about {
+    padding-right: 50vh;
+}
+
+.container-certificate {
+    background-color: #ebebeb;
+
+    margin: 10vh 0 10vh 0;
+    padding: 13vh 24vh;
+}
+
+.container-notarial-acts {
     text-align: center;
 }
