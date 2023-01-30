@@ -1,28 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-@media only screen and (max-width: 767px) {
-    .container {
-    padding-top: 5vh;
-    }
-    
-    .container-about {
-    padding-right: 20vh;
-    }
-    
-    .container-certificate {
-    padding: 5vh 10vh;
-    }
-    }
-    
-    @media only screen and (min-width: 768px) {
-    .container-about {
-    padding-right: 50vh;
-    }
-    
-    .container-certificate {
-    padding: 13vh 24vh;
-    }
-    }
+
 
 .container {
     font-family: 'Open Sans', 'Arial', sans-serif;
@@ -49,4 +27,8 @@
 
 .container-notarial-acts {
     text-align: center;
+}
+
+.free-consult {
+    margin-top: 1vh;
 }
