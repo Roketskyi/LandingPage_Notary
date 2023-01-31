@@ -55,7 +55,7 @@ footer {
 
 .contacts-h1 {
     font-size: 32px;
-    margin-bottom: 6vh;
+    margin-bottom: 3rem;
 }
 
 p {
@@ -64,7 +64,7 @@ p {
 }
 
 .contactsStreet {
-    margin: 6vh 0 6vh 0;
+    margin: 3rem 0 3rem 0;
 }
 
 a {

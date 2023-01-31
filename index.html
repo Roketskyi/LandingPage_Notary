@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Приватний нотаріус м. Івано-Франківськ</title>
+    <title>Приватний Нотаріус м. Івано-Франківськ</title>
 
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/mainpage.css">
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
 
+    <script defer src="./scripts/script.js"></script>
+
     <style>
         * {
+            -webkit-tap-highlight-color: transparent;
             margin: 0;
             padding: 0;
         }
@@ -21,11 +24,11 @@
 <body>
     <header>            
         <p class='header-name'><strong>Чіпко Ігор Петрович</strong></p>
-        <p class='header-info'>Приватний нотаріус Івано-Франківського міського нотаріального округу</p>
+        <p class='header-info'>Приватний Нотаріус Івано-Франківського міського нотаріального округу</p>
         <br/>
 
         <div class="header-record">
-            <img class="header-telephone-photo" src="./images/icons/telephone.png" alt="нотаріус" width="40vh">
+            <img class="header-telephone-photo" src="./images/icons/telephone.png" alt="нотаріус" width="40rem">
             <a href='#contacts' class='header-btn'><strong>Запис на прийом</strong></a>
         </div>
     </header>
@@ -33,28 +36,101 @@
     <main class="container">
         <div class="container-info">
             <div class="container-about">
-                <p style="font-size: 30px;">Приватний Нотаріус<br><strong>Чіпко Ігор Петрович</strong></p>
+                <p style="font-size: 34px;">Приватний Нотаріус<br><strong>Чіпко Ігор Петрович</strong></p>
                 <br>
-                <p style="font-size: 19px;">Безкоштовна попередня онлайн консультація</p>
+                <p style="font-size: 20px;">Безкоштовна попередня онлайн консультація</p>
                 <br>
                 <a href='#contacts' class='header-btn'><strong>Безкоштовна консультація</strong></a>
             </div>
-                <img src="./images/person/igor.jpg" alt="Чіпко Ігор Петрович" width="260vh">
+                <img src="./images/person/igor.jpg" alt="Чіпко Ігор Петрович" width="280rem">
         </div>
 
         <div class="container-certificate">
-            <div>
-                <p style="font-size: 16px;">Свідоцтво про право на зайняття нотаріальною діяльністю № 9155 від 25 листопада 2013 року видане Міністерством Юстиції України.</p>
+            <div class="container-certificate-title">
+                <p>Свідоцтво про право на зайняття нотаріальною діяльністю № 9155 від 25 листопада 2013 року видане Міністерством Юстиції України.</p>
                 <br>
-                <p style="font-size: 16px;">Реєстраційне посвідчення про реєстрацію приватної нотаріальної діяльності № 213 від 15  травня 2020 року видане Південно-Західним міжрегіональним управлінням Міністерства юстиції (м. Івано-Франківськ).</p>
+                <p>Реєстраційне посвідчення про реєстрацію приватної нотаріальної діяльності № 213 від 15  травня 2020 року видане Південно-Західним міжрегіональним управлінням Міністерства юстиції (м. Івано-Франківськ).</p>
             </div>
         </div>
 
         <div class="container-notarial-acts">
-            <div>
-                <p style="font-size: 28px; padding-bottom: 1.5vh;"><strong>Нотаріальні Дії</strong></p>
+            <div class="container-notarial-acts-title">
+                <p style="font-size: 28px; padding-bottom: 1rem;"><strong>Нотаріальні Дії</strong></p>
                 <p style="font-size: 16px;">Нотаріальні дії вчиняються за наявності необхідних документів та відповідно до вимог чинного законодавства України.</p>
-                <br><p style="font-size: 12px; padding-bottom: 1.5vh;"><strong>To be continued...</strong></p>
+            </div>
+
+            <div class="container-notarial-acts-buttons">
+                <div class="container-list">
+                    <button style="color: #000; text-decoration: none;" class="collapsible"><strong>Довіреності (посвідчення довіреностей)</strong></button>
+                    
+                    <div class="content">
+                        <ul>
+                            <li>Довіреності видані фізичною особою в тому числі на розпорядження транспортним засобом, придбання транспортного засобу і т.п.</li>
+                            <li>Довіреності за участю юридичної особи</li>
+                            <li>Довіреності у порядку передоручення</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="container-list">
+                    <button style="color: #000; text-decoration: none;" class="collapsible"><strong>Заповіти (посвідчення заповітів)</strong></button>
+                    
+                    <div class="content">
+                        <ul>
+                            <li>Посвідчення заповітів при свідках</li>
+                            <li>Секретний заповіт</li>
+                            <li>Заповіт з умовою</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="container-list">
+                    <button style="color: #000; text-decoration: none;" class="collapsible"><strong>Засвідчення справжності підписів (заяви, протоколи, рішення..)</strong></button>
+                    
+                    <div class="content">
+                        <ul>
+                            <li>Засвідчення справжності підписів на протоколах, рішенннях, статутах, актах приймання-передачі та заявах</li>
+                            <li>Заява про згоду на виїзд дитини за кордон</li>
+                            <li>Передача заяв</li>
+                            <li>Оформлення спадщини</li>
+                            <li>Заведення та ведення спадкової справи</li>
+                            <li>Посвідчення договору про поділ спадкового майна</li>
+                            <li>Видача свідоцтва про право на спадщину</li>
+                            <li>Видача свідоцтва в разі смерті одного з подружжя</li>
+                        </ul>
+                    </div>
+                </div> 
+
+                <div class="container-list">
+                    <button style="color: #000; text-decoration: none;" class="collapsible"><strong>Договори (посвідчення договорів)</strong></button>
+                    
+                    <div class="content">
+                        <ul>
+                            <li>Договорів купівлі-продажу нерухомого майна</li>
+                            <li>Договорів дарування (квартир, будинків, земельних ділянок, ..)</li>
+                            <li>Договорів міни</li>
+                            <li>Спадкових договорів</li>
+                            <li>Договорів довічного утримання</li>
+                            <li>Договорів оренди транспортних засобів</li>
+                            <li>Шлюбних договорів</li>
+                            <li>Договорів про припинення права на аліменти у зв'язку з набуттям дитиною права власності на нерухоме майно</li>
+                            <li>Договорів про поділ майна</li>
+                            <li>Іпотечних договорів</li>
+                            <li>Договорів застави</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container-list">
+                    <button style="color: #000; text-decoration: none;" class="collapsible"><strong>Виїзд нотаріуса</strong></button>
+                    
+                    <div class="content">
+                        <ul>
+                            <li>Виїзд можливий в межах території Івано-Франківської міської територіальної громади за попереднім записом</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-list"></div>
             </div>
         </div>
 
