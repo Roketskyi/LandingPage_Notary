@@ -2,14 +2,13 @@
 
 header {
     font-family: 'Open Sans', 'Arial', sans-serif;
-    
-    /* background-color: #ffffff; */
-    padding: 16px 0px 18px 0px;
+    background-color: #ebebeb;
+    padding: 21px 0px 21px 0px;
     text-align: center;
 }
 
 .header-name {
-    font-size: 24px;
+    font-size: 21px;
 }
 
 .header-info {

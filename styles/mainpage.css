@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-@media only screen and (max-width: 576px) {
-    .container-about {
-        padding-right: 8rem;
-    }
-    
+@media only screen and (max-width: 576px) { 
     .container-certificate-title p {
         font-size: 0.75rem;
     }
@@ -29,6 +25,10 @@
 
     .content {
         font-size: 14px;
+    }
+
+    .container-info {
+        flex-direction: column;
     }
 }
 
@@ -168,7 +168,6 @@
 
 .container-info {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
