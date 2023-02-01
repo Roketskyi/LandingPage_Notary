@@ -1,28 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@media only screen and (max-width: 768px) {
+    .header-name {
+        font-size: 18px;
+        padding-bottom: 4px;
+    }
+    
+    .header-info {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header-btn:hover {
+        background-color: rgb(0, 16, 109);
+    }
+
+    .header-name {
+        font-size: 20px;
+        padding-bottom: 4px;
+    }
+    
+    .header-info {
+        font-size: 14px;
+    }
+}
+
+
 header {
     font-family: 'Open Sans', 'Arial', sans-serif;
     background-color: #ebebeb;
     padding: 21px 0px 21px 0px;
     text-align: center;
-}
-
-.header-name {
-    font-size: 21px;
-}
-
-.header-info {
-    font-size: 14px;
-}
-
-.header-btn {
-    text-decoration: none;
-    color: #fff;
-    background-color: rgb(0, 31, 206);
-    font-size: 14px;
-    padding: 12px 18px;
-    border-radius: 12px;
-    cursor: pointer;
 }
 
 .header-record {
@@ -34,3 +43,4 @@ header {
 .header-telephone-photo {
     padding-right: 6px;
 }
+
