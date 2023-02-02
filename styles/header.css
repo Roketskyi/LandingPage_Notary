@@ -2,12 +2,12 @@
 
 @media only screen and (max-width: 768px) {
     .header-name {
-        font-size: 18px;
+        font-size: calc(0.15rem + 4.5vw);
         padding-bottom: 4px;
     }
     
     .header-info {
-        font-size: 13px;
+        font-size: calc(0.15rem + 3vw);
     }
 }
 
@@ -17,12 +17,12 @@
     }
 
     .header-name {
-        font-size: 20px;
+        font-size: 1.6rem;
         padding-bottom: 4px;
     }
     
     .header-info {
-        font-size: 14px;
+        font-size: 1rem;
     }
 }
 

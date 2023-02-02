@@ -53,11 +53,7 @@
     }
 }
 
-@media only screen and (min-width: 576px) {
-    .container-about {
-        padding-right: 2rem;
-    }
-    
+@media only screen and (min-width: 576px) {   
     .container-certificate-title p {
         font-size: 0.75rem;
     }
@@ -84,10 +80,6 @@
         font-size: 14px;
     }
 
-    .container-info img {
-        width: 13rem;
-    }
-
     .container-about-p-one {
         font-size: 20px;
         padding-bottom: 5px;
@@ -102,13 +94,18 @@
         padding: 7px 12px;
         font-size: 10px;
     }
+
+    .container-info img {
+        width: calc(5rem + 5vw + 5vh);
+        padding: 2.8rem 0 0.8rem 0;
+    }
+
+    .container-about {
+        padding-right: calc(9vw + 5vw);
+    }
 }
 
-@media only screen and (min-width: 768px) {
-    .container-about {
-        padding-right: 2.5rem;
-    }
-    
+@media only screen and (min-width: 768px) {    
     .container-certificate-title p {
         font-size: 0.85rem;
     }
@@ -135,10 +132,6 @@
         font-size: 14px;
     }
 
-    .container-info img {
-        width: 16rem;
-    }
-
     .container-about-p-one {
         font-size: 26px;
         padding-bottom: 6px;
@@ -153,13 +146,17 @@
         padding: 9px 14px;
         font-size: 13.5px;
     }
+
+    .container-info img {
+        width: calc(8rem + 10vw + 10vh);
+    }
+
+    .container-about {
+        padding-right: calc(9vw + 5vw);
+    }
 }
 
-@media only screen and (min-width: 998px) {
-    .container-about {
-        padding-right: 8rem;
-    }
-    
+@media only screen and (min-width: 998px) {    
     .container-certificate-title p {
         font-size: 0.9rem;
     }
@@ -186,10 +183,6 @@
         font-size: 16px;
     }
 
-    .container-info img {
-        width: 20rem;
-    }
-
     .container-about-p-one {
         font-size: 32px;
         padding-bottom: 8px;
@@ -204,13 +197,17 @@
         padding: 12px 18px;
         font-size: 14px;
     }
-}
 
-@media screen and (min-width: 1200px) {
-    .container-about {
-        padding-right: 17rem;
+    .container-info img {
+        width: calc(8rem + 10vw + 10vh);
     }
 
+    .container-about {
+        padding-right: calc(9vw + 5vw);
+    }
+}
+
+@media screen and (min-width: 1200) {
     .container-notarial-acts-title {
         padding: 0 25rem;
     }
@@ -238,10 +235,6 @@
         font-size: 15px;
     }
 
-    .container-info img {
-        width: 20rem;
-    }
-
     .container-about-p-one {
         font-size: 32px;
         padding-bottom: 8px;
@@ -257,7 +250,13 @@
         font-size: 14px;
     }
 
-    
+    .container-info img {
+        width: calc(8rem + 10vw + 10vh);
+    }
+
+    .container-about {
+        padding-right: calc(9vw + 5vw);
+    }
 }
 
 .container {
@@ -321,7 +320,7 @@
     text-decoration: none;
     color: #fff;
     background-color: rgb(0, 31, 206);
-    border-radius: 12px;
+    border-radius: 18px;
     cursor: pointer;
 }
 
@@ -332,6 +331,5 @@
 
 .appear {
     opacity: 1;
-    transform: translateY(0);
 }
   

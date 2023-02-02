@@ -36,12 +36,16 @@
 
     .footer-p {
         margin-bottom: 6px;
-        font-size: 18px;
+        font-size: calc(0.3rem + 1vw);
     }
 
     .contacts-h1 {
-        font-size: 32px;
+        font-size: calc(0.45rem + 1.6vw);
         margin-bottom: 3rem;
+    }
+    
+    .contactsStreet {
+        font-size: calc(0.3rem + 1vw);
     }
 }
 
