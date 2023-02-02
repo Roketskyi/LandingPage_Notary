@@ -256,6 +256,8 @@
         padding: 12px 18px;
         font-size: 14px;
     }
+
+    
 }
 
 .container {
@@ -322,3 +324,14 @@
     border-radius: 12px;
     cursor: pointer;
 }
+
+.box {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+  
